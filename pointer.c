@@ -2,7 +2,7 @@
 #include<stdlib.h>
 int main()
 {
-    int *ptr;
+    int *ptr; //pointer initialized
     ptr = (int*)malloc(2*sizeof(int));
     if( ptr == NULL)
     {
