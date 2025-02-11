@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-int main()
+int main() //main function
 {
     int *ptr; //pointer initialized
     ptr = (int*)malloc(2*sizeof(int));
